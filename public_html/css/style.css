@@ -1,0 +1,190 @@
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 3 Feb, 2022, 2:50:11 PM
+    Author     : fwcbn
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.nav {
+	background-color: #16223e;
+	padding-top: 18px;
+}
+
+.t-m ul {
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.t-m ul a {
+	color: white;
+}
+
+.t-m ul li {
+	padding: 5px;
+	margin-left: 10px;
+}
+
+.t-m ul li:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.t-m ul li {
+	padding-top: 12px;
+	color: white;
+}
+
+.h-s {
+	padding-top: 2%;
+	background-color: #16223e;
+}
+
+.c-bg {
+	background-color: #16223e;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.c-bg h2 {
+	color: white;
+	font-weight: bold;
+}
+
+.box-sty {
+	background: white;
+	padding: 20px;
+	border-radius: 12px!important;
+	padding: 30px;
+	margin-top: -150px;
+}
+
+.box-p {
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.reg-form h2 {
+	font-weight: bold;
+}
+
+.main-box {
+	padding: 20px;
+	background-color: white;
+	width: 155px;
+	margin-top: 80px!important;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	margin-right: 10px!important;
+}
+
+.main-box .text-b {
+	margin-top: 15px;
+	text-align: center;
+	color: #a6aab1;
+}
+
+.text-b p {
+	font-size: 12px;
+}
+
+.circle {
+	margin-bottom: 10px;
+	margin: 0 auto;
+	width: 125px;
+	height: 125px;
+	border-radius: 80px;
+}
+
+.main-box {
+	display: inline-block;
+	margin: 0;
+}
+
+.reg-form .form-control {
+	border-radius: 5px!important;
+	background-color: #ccc!important;
+	border: none!important;
+	color: #000!important;
+	padding: 5px!important;
+	margin-bottom: 20px;
+}
+
+.reg-form .form-check {
+	display: inline-block!important;
+	padding-right: 10px;
+}
+
+.b-l {
+	border-top: 2px solid lightgray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer p {
+	color: #a6aab1;
+	margin-bottom: 0px;
+}
+
+.p-img img {
+	padding-top: 10px;
+}
+
+.social-icon img {
+	margin-left: 20px;
+}
+
+.circle img {
+	max-width: 100%;
+	width: 100%;
+}
+
+.b-sty {
+	background-color: #16223e!important;
+	border-radius: 10px!important;
+}
+
+.user-image1 {
+	background-image: url(../img/p1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.user-image2 {
+	background-image: url(../img/p2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.user-image3 {
+	background-image: url(../img/ad.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box-p2{
+  margin-top: 25px;
+  font-size: 14px;
+}
+.box-p2 button {
+  padding: .25rem 1.3rem!important
+}
